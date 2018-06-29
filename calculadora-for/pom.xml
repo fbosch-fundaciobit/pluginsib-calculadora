@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.fundaciobit.calculadora.for</groupId>
+  <groupId>org.fundaciobit.calculadora</groupId>
   <artifactId>pluginsib-calculadora-for</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
@@ -16,7 +16,7 @@
 
   <dependencies>
 	<dependency>
-    <groupId>org.fundaciobit.calculadora.api</groupId>
+    <groupId>org.fundaciobit.pluginsib.calculadora</groupId>
     <artifactId>pluginsib-calculadora-api</artifactId>
     <version>1.0.0</version>
   </dependency>
