@@ -21,9 +21,9 @@ public abstract class TestCalculadoraBase extends TestCase {
   /**
    * @return the suite of tests being tested
    */
-  public static Test suite() {
-    return new TestSuite(TestCalculadoraBase.class);
-  }
+  //public static Test suite() {
+   // return new TestSuite(TestCalculadoraBase.class);
+ // }
 
   /**
    * Rigourous Test :-)
@@ -34,7 +34,7 @@ public abstract class TestCalculadoraBase extends TestCase {
   public void testCalculadora() {
     ICalculadora calc = getCalculadora();
     assertEquals(4, calc.suma(2, 2));
-    assertEquals(6, calc.suma(8, 2));
+    assertEquals(6, calc.resta(8, 2));
 
   }
 
